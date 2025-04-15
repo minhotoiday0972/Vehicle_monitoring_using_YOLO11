@@ -1,0 +1,5 @@
+train: ..\dataset\images\train # Đường dẫn đến thư mục chứa ảnh train
+val: ..\dataset\images\val     # Đường dẫn đến thư mục chứa ảnh validation
+
+nc: 4
+names: ["car", "motorcycle", "truck", "bus"]
