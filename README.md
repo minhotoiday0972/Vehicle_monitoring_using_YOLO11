@@ -6,4 +6,4 @@ Sau khi fine-tuned model yolo dựa trên ý tưởng đề ra, kết quả pred
 Nhận ra yolo11n.pt là model đã được train trên 80 class bằng dataset COCO trong đó có cả các class phương tiện giao thông đường bộ (car, motorcycle, bus, truck,...).
 Hướng đi mới: dùng lại model yolo11n.pt và hàm filter để chỉ nhận diện các class cần thiết, kết quả cho ra tốt hơn (image_results\predict_on_pretrained_model_filter)
 # Kết quả được trực quan hóa bằng Streamlit trên 3 link video youtube trực tiếp.
-
+![Kết quả trực tiếp, mô phỏng trên 3 luồng video](result_project_yolo.jpg)
