@@ -11,3 +11,4 @@ New approach: reuse the `yolo11n.pt` model and apply a filter function to only d
 Results visualized using Streamlit on 3 live YouTube video streams.  
 ![Live results, simulated on 3 video streams](results_demo.png)
 
+This result could be improved by using a larger YOLO model and a more stable live video stream. Since this is real-time monitoring, the video FPS may be unstable; however, for the purpose of simulation and research for future development, this web application meets the requirements.
