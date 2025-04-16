@@ -38,7 +38,7 @@ def xml_to_csv(path):
 
 def main():
     # Định nghĩa đường dẫn thư mục chứa file XML
-    directories = [r"C:\Tien_Project\dataset\train\images"]
+    directories = [r"dataset\train\images"]
 
     for directory in directories:
         # Đảm bảo đường dẫn hợp lệ
@@ -48,7 +48,7 @@ def main():
         xml_df = xml_to_csv(image_path)
 
         # Tạo tên file CSV tương ứng
-        output_csv = os.path.join(r"C:\Tien_Project\dataset\train\labels", "train_labels.csv")
+        output_csv = os.path.join(r"dataset\train\labels", "train_labels.csv")
 
         # Lưu CSV
         xml_df.to_csv(output_csv, index=False)

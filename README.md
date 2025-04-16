@@ -9,5 +9,5 @@ New approach: reuse the `yolo11n.pt` model and apply a filter function to only d
 
 # Results Visualized  
 Results visualized using Streamlit on 3 live YouTube video streams.  
-![Live results, simulated on 3 video streams](result_project_yolo.jpg)
+![Live results, simulated on 3 video streams](results_demo.png)
 

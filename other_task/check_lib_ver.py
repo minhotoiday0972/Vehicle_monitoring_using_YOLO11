@@ -1,4 +1,3 @@
-
 import cv2
 
 print("\nOpenCV Version Information:")
